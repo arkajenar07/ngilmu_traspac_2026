@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+/* main.css */
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+  background-color: #fafafa;
+}
+
+h1 span{
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+}
+
+.mask-mentor {
+    -webkit-mask-image: url('/assets/images/mask-mentor.png');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: start;
+
+    mask-image: url('/assets/images/mask-mentor.png');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: start;
+}
